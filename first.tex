@@ -1,0 +1,114 @@
+\documentclass[12pt,twocolumn,a4paper,twoside]{article}
+
+% Packages from preamble
+\usepackage{graphicx}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+
+\begin{document}
+
+\section{First section}
+First section root content.
+
+Here I am going to place an itemised list:
+
+\begin{itemize}
+\item My First Item
+\item My Second Item
+\item My Third Item
+\end{itemize}
+
+\subsection{First Section First Subsection}
+First subsection root content.
+
+% Algorithmic content
+
+\begin{algorithm}
+    \begin{algorithmic}
+        \STATE $i\gets 0$
+        \WHILE{$i\leq n$}
+            \STATE $writeln(i)$
+            \STATE $i\gets i+2$
+        \ENDWHILE
+    \end{algorithmic}
+    \caption{This prints all even numbers from 0 to n in Java}
+    \label{loopAlgorithm}
+\end{algorithm}
+
+\subsubsection{First Section First Subsection First Subsubsection}
+First subsubsection root content.
+\subsection{First Section Second Subsection}
+Second subsection root content.
+\subsubsection{First Section Second Subsection First Subsubsection}
+First subsubsection root content.
+\section{Second Section}
+Second section root content.
+
+% Figure in place
+
+Here I am going to place a figure in place.
+
+\begin{figure}[h]
+\includegraphics[width=80mm]{resources/bicycle.png}
+\caption{This is the chain of a bicycle}
+\label{bicycleFigure}
+\end{figure}
+
+
+\subsection{Second Section First Subsection}
+First subsection root content.
+
+Here I am going to place an enumerated list:
+
+\begin{enumerate}
+\item My First Item
+\item My Second Item
+\item My Third Item
+\end{enumerate}
+
+\subsubsection{Second Section First Subsection First Subsubsection}
+First subsubsection root content.
+
+% Figure at the top of the page
+
+Here I am going to place a figure at the top of the page.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=80mm]{resources/particle.png}
+\caption{This is a particle}
+\label{particleFigure}
+\end{center}
+\end{figure}
+
+\subsection{Second Section Second Subsection}
+Second subsection root content.
+\subsubsection{Second Section Second Subsection First Subsubsection}
+First subsubsection root content.
+\section{Third Section}
+Third section root content.
+\subsection{Third Section First Subsection}
+First subsection root content.
+\subsubsection{Third Section First Subsection First Subsubsection}
+First subsubsection root content.
+
+Here I am going to place an enumerated list:
+
+\begin{enumerate}
+\item My Other First Item
+\item My Other Second Item
+\end{enumerate}
+
+\subsection{Third Section Second Subsection}
+Second subsection root content.
+\subsubsection{Third Section Second Subsection First Subsubsection}
+First subsubsection root content.
+
+Here I am going to place another itemised list:
+
+\begin{itemize}
+\item My Other First Item
+\item My Other Second Item
+\end{itemize}
+
+\end{document}
